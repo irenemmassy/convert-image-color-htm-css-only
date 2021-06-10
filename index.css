@@ -1,0 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box img {
+  height: 700px;
+}
+.box:nth-child(2) img {
+  filter: grayscale(0.3) contrast(12);
+}
